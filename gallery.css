@@ -1,0 +1,49 @@
+.nav-bar{
+    background-color: powderblue;
+    display: flex;
+    justify-content: center;
+    gap:2em;
+    border-radius: 1em;
+}
+.nav-bar a{
+    background-color: rgb(220, 236, 241);
+    border-radius: 15em;
+    font-size: 0.8em;
+    padding: 0.4em;
+    text-decoration: none;
+    color: #916d82;
+}
+#lastline{
+    background-color: rgba(144,44,44,0.3);
+    position:fixed;
+    bottom:0em;
+    text-align: center;
+    width: 100% ;
+}
+body{
+    background-color: #DFF2EB;
+}
+#gallery{
+    margin: auto;
+   margin-top:2em;
+    text-align:center ;
+    font-size:2em;
+    background-color: #bae0f7;
+    width: 50%;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    border-radius: 3em;
+}
+#images{
+    display: grid;
+    width: 70%;
+    margin: auto;
+    grid-template-columns: repeat(auto-fill,10em);
+    row-gap: 20px;
+    column-gap: 100px;
+    margin-top: 1.5em;
+}
+
+img{
+    border-radius: 50%;
+}

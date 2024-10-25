@@ -1,0 +1,6 @@
+.nav-bar{
+    background-color: powderblue;
+    display: flex;
+    justify-content: center;
+    gap:2em;
+}
